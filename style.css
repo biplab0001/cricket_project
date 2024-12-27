@@ -1,0 +1,154 @@
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(88, 88, 245);
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 10;
+}
+footer{
+    position: relative;
+    background-color: rgb(88, 88, 245);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+body{
+    position: relative;
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000003226_1714596295_pics1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    margin: 5% 0% 0% 0%;
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    z-index: -1;
+}
+
+.management article{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 10% 6%;
+    border: 8px solid white;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.rahul, .arun, .dilip{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(244, 245, 247);
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+    text-align: center;
+}
+
+.management article img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info{
+    color: white;
+    position: fixed;
+    left: 40%;
+    z-index: -1;
+    text-align: center;
+}
+
+.Players{
+    position: relative;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin: 5% 30%;
+    padding: 0% 3% 3% 3%;
+    border: 8px solid white;
+    background-color: white;
+    border-radius: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.Players h2{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    z-index: 1;
+}
+
+.player-container{
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.Players article {
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Players article img {
+    width: 100%;
+    height: 100%;
+    max-width: 400px;
+    max-height: 300px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.Players article p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+table, th , tr, td{
+    border: 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.table{
+    margin: 12% 10%;
+}
+
+table{
+    width: 100%;
+    height: 150px;
+}
+thead{
+    height: 30px;
+    background-color: rgb(87, 87, 226);
+}
+td{
+    background-color: rgb(157, 193, 228);
+    box-shadow: 5px 5px 20px black;
+}
+th{
+    box-shadow: 5px 10px 20px black;
+}
+
