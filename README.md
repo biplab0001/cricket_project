@@ -22,6 +22,3 @@ Future Enhancements:-
 Add JavaScript for interactive features like dynamic rankings updates.
 Implement a responsive design for better mobile compatibility.
 Include more players and statistics.
-
-Author
-Developed by Biplab Biswas
